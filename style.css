@@ -658,6 +658,13 @@ color: #27bcda;
     position: relative;
     top: 20px;
 }
+  .footer-menu ul {
+  left: -65px;
+}
+.footer-bottom p {
+  position: relative;
+  left: 110px;
+}
 }
 
 
