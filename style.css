@@ -651,8 +651,12 @@ color: #27bcda;
 }
 @media (max-width:400px) {
   #techmaker {
-    top: 174px;
+    top: 132px;
     left: 107px;
+}
+  hr {
+    position: relative;
+    top: 20px;
 }
 }
 
