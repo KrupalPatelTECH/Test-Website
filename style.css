@@ -573,10 +573,10 @@ color: #27bcda;
   left: 65px;
   }
   hr {
-  top: 227px;
+    margin-top: 20px;
   }
   #techmaker {
-    margin: -63px 0px 20px -39px;
+    margin: 0px 0px -36px -39px;
   }
 }
 
