@@ -764,6 +764,6 @@ body section .row {
 
   @media (max-width:320px) {
     body section {
-        gap: 20px;
+        gap: 0px;
     }
   }
