@@ -64,8 +64,22 @@
   }
   
   .nav > .nav-links > .border{
-      border: 2px solid #FF5E0E;
+      border: 2px solid ;
+      border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+      animation: 10s rotate linear infinite;
       padding: 5px;
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
   }
   
   .nav > .nav-links > a:hover {
@@ -189,12 +203,12 @@
     width: 201px;
   }
 
-body section {
+  body section {
     position: relative;
     width: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 0px;
+    gap: 20px;
     top: 70px;
     flex-wrap: wrap;
     justify-content: center;
@@ -327,8 +341,6 @@ body section .row {
 	 background-color: white;
 	 color: #0b0f08;
 }
-
-
   
   .line {
     border: 1px solid #1f1f1f;
