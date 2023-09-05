@@ -194,7 +194,7 @@ body section {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 55px;
+    gap: 20px;
     top: 70px;
     flex-wrap: wrap;
     justify-content: center;
