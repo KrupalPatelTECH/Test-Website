@@ -689,6 +689,7 @@ body section .row {
 
   body section {
     top: 150px;
+    gap: 0;
   }
 
   #teams001 {
